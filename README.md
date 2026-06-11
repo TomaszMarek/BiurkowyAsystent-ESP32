@@ -37,3 +37,17 @@ Projekt inteligentnego asystenta biurkowego opartego na platformie ESP32 (TTGO).
 3. Wprowadź parametry sieciowe (SSID, hasło Wi-Fi) oraz pełny adres URL webhooka Discord w odpowiednie dyrektywy `#define` w pliku `secrets.h`.
 4. Skonfiguruj plik nagłówkowy `User_Setup.h` w strukturze biblioteki `TFT_eSPI` zgodnie ze specyfikacją posiadanego kontrolera wyświetlacza.
 5. Skompiluj i wgraj oprogramowanie na płytkę deweloperską za pomocą środowiska Arduino IDE lub PlatformIO.
+
+## Prezentacja działania systemu
+
+### Potwierdzenie połączenia z Wi-Fi
+![Połączenie Wi-Fi](media/WidokProjektu1.jpg)
+
+### Ekran główny – temperatura, wilgotność i odległość
+![Ekran główny](media/WidokProjektu2.jpg)
+
+### Ekran urządzenia w trybie uśpienia
+![Tryb uśpienia](media/WidokProjektu3.jpg)
+
+### Wiadomość na Discordzie po wybudzeniu asystenta
+![Powiadomienie Discord](media/WidokProjektu4.jpg)
